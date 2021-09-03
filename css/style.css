@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.woff2') format('woff2'),
+        url('../fonts/ArialMT.woff') format('woff'),
+        url('../fonts/ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/Arial-BoldMT.woff') format('woff'),
+        url('../fonts/Arial-BoldMT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans-Bold.woff2') format('woff2'),
+        url('../fonts/PTSans-Bold.woff') format('woff'),
+        url('../fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{
+	outline: none;
+}
+a:focus,a:active{
+	outline: none;
+}
+
+nav,footer,header,aside{
+	display: block;
+}
+
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Arial';
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+}
+input,button,textarea{
+	font-family:inherit;
+}
+
+input::-ms-clear{
+	display: none;
+}
+button{
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+a, a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:inherit;
+}
+
+
+
+
+.wrapper{
+	overflow: hidden;
+}
+.container{
+	max-width: 489px;
+	margin: 0 auto;
+}
+
+.user{
+	padding-bottom: 13px;
+}
+.user .container{
+	padding: 21px 19px 13px 106px;
+	position: relative;
+}
+
+.name{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	padding:0 0 2px 45px;
+}
+
+.work{
+	color: #808080;
+	font-size: 12px;
+	font-weight: normal;
+	padding:0 0 5px 45px;
+}
+
+
+.about{
+	font-size: 14px;
+	padding: 10px 20px 11px 45px;
+	background-color: #FFFBC8;
+	border: 1px solid #DADADA;
+	border-radius: 5px;
+	letter-spacing: -.2px;
+}
+
+.user-img{
+	position: absolute;
+	top: 14px;
+	left: 17px;
+}
+
+
+
+.services .container{
+	padding: 0 21px 26px 151px;
+}
+
+.serv-title{
+	text-align: right;
+	padding-right: 32px;
+	border-width: 0 0 1px 0;
+	border-color: #DADADA;
+	border-style: solid;
+	padding-bottom: 7px;
+	margin-bottom: 23px;
+	font-weight: 400;
+	font-size: 13px;
+}
+.srv-list{
+	position: relative;
+}
+.srv-item{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	align-items: baseline;
+}
+.last{
+	margin-bottom: 0;
+}
+
+.list-amount{
+	padding-right: 39px;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.serv-name{
+	padding-left: 6px;
+	font-size: 13px;
+	line-height: 26px;
+}
+.green{
+	background-color: #B1E19B;
+	width: 219px;
+	height: 24px;
+	position: absolute;
+	z-index: 1;
+	border-radius: 0 3px 3px 0;
+}
+.serv-name{
+	z-index: 2;
+}
+.blue-long{
+	background-color: #ACE2F8;
+	position: absolute;
+	z-index: 1;
+	border-radius: 0 3px 3px 0;
+	width: 54px;
+	height: 24px;
+}
+
+.blue-short{
+	background-color: #ACE2F8;
+	position: absolute;
+	z-index: 1;
+	border-radius: 0 3px 3px 0;
+	width: 36px;
+	height: 24px;
+}
+
+.green, .blue-long, .blue-short{
+	top: 2px;
+}
+
+
+.srv-list:before{
+	content: '';
+	position: absolute;
+	border: 1px solid rgba(51, 51, 51, 0.2);
+	height: 76px;
+	z-index: 3;
+	left: 0;
+	bottom: 0;
+}
+
+
+.serv-calc{
+	padding-top: 9px;
+	margin-top: 15px;
+	border-width: 1px 0 0 0;
+	border-color: #DADADA;
+	border-style: solid;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+}
+
+.serv-amount{
+	padding-right: 39px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.comment .container{
+	padding: 0 19px 34px 20px;
+}
+
+.comment-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 10px;
+}
+.comm-amount{
+	display: flex;
+}
+
+.comm-link{
+	color:  #005DA1;
+	font-size: 14px;
+	text-decoration: underline;
+	font-weight: normal;
+	padding-left: 7px;
+}
+.comments{
+	margin-left: 35px;
+	position: relative;
+	font-size: 12px;
+}
+.comments:before{
+	content: '';
+	position: absolute;
+	background: url(../img/comment.svg) no-repeat;
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: -18px;
+}
+.like{
+	position: relative;
+	font-size: 12px;
+}
+.like:before{
+	content: '';
+	position: absolute;
+	background: url(../img/like.svg) no-repeat;
+	width: 12px;
+	height: 11px;
+	top: 2px;
+	left: -18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.comment-item {
+	position: relative;
+	background: #F2FBFF;
+	border: 1px solid #C4CBCF;
+	margin-top: 15px;
+	padding: 13px 37px 11px 20px;
+	font-size: 14px;
+	box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+}
+.comment-item:after, .comment-item:before {
+	bottom: 100%;
+	left: 25px;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.comment-item:after {
+	border-bottom-color: #F2FBFF;
+	border-width: 0 9.5px 9px 0px;
+	margin-left: 1px;
+	border-style: solid;
+}
+.comment-item:before {
+	border-color: rgba(196, 203, 207, 0);
+	border-bottom-color: #C4CBCF;
+	border-width: 0px 12px 12px 0px;
+	
+}
+
+
+
+
+
+
+
+
+
+.comment-list{
+	margin-top: 10px;
+}
+.name-comm{
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.name-comm-date{
+	font-size: 11px;
+	color: #808080;
+	font-weight: normal;
+	padding-left: 7px;
+}
+
+
+.comment-form{
+	background-color: #F2F2F2;
+	padding: 28px 21px 0 21px;
+}
+.comment-form .container{
+	display: flex;
+	flex-direction: column;
+	max-width: 447px;
+
+}
+
+.inp-text{
+	border: 1px solid #000;
+	padding-bottom: 50px;
+	overflow-y: scroll;
+	resize: none;
+	overflow: hidden;
+}
+.btn-comm{
+	max-width: 281px;
+	background-color: #FDD639;
+	border-radius: 23px;
+	padding: 13px 48px 11px 43px;
+	margin: 23px auto 0;
+	font-family: 'PT Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 485px){
+	.about{
+		padding-right: 10px;
+	}
+}
+
+
+@media(max-width: 465px){
+	.services .container{
+		padding-left: 20px;
+	}
+}
+
+@media(max-width: 380px){
+	.comment-title{
+		flex-direction: column;
+	}
+	.comm-amount{
+		margin: 7px auto;
+	}
+}
