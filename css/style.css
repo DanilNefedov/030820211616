@@ -104,9 +104,7 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0 auto;
 }
 
-.user{
-	padding-bottom: 13px;
-}
+
 .user .container{
 	padding: 21px 19px 13px 106px;
 	position: relative;
@@ -116,24 +114,25 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
-	padding:0 0 2px 45px;
+	padding:1px 0 0 45px;
 }
 
 .work{
 	color: #808080;
 	font-size: 12px;
 	font-weight: normal;
-	padding:0 0 5px 45px;
+	padding:5px 0 5px 45px;
 }
 
 
 .about{
 	font-size: 14px;
-	padding: 10px 20px 11px 45px;
+	padding: 8px 20px 10px 45px;
 	background-color: #FFFBC8;
 	border: 1px solid #DADADA;
 	border-radius: 5px;
 	letter-spacing: -.2px;
+	line-height: 19px;
 }
 
 .user-img{
@@ -145,7 +144,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .services .container{
-	padding: 0 21px 26px 151px;
+	padding: 0 21px 23px 151px;
 }
 
 .serv-title{
@@ -155,7 +154,7 @@ h1,h2,h3,h4,h5,h6{
 	border-color: #DADADA;
 	border-style: solid;
 	padding-bottom: 7px;
-	margin-bottom: 23px;
+	margin-bottom: 12px;
 	font-weight: 400;
 	font-size: 13px;
 }
@@ -230,7 +229,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .serv-calc{
-	padding-top: 9px;
+	padding-top: 12px;
 	margin-top: 15px;
 	border-width: 1px 0 0 0;
 	border-color: #DADADA;
@@ -260,7 +259,7 @@ h1,h2,h3,h4,h5,h6{
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 }
 .comm-amount{
 	display: flex;
@@ -271,7 +270,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 14px;
 	text-decoration: underline;
 	font-weight: normal;
-	padding-left: 7px;
+	padding-left: 5px;
 }
 .comments{
 	margin-left: 35px;
@@ -315,14 +314,15 @@ h1,h2,h3,h4,h5,h6{
 	position: relative;
 	background: #F2FBFF;
 	border: 1px solid #C4CBCF;
-	margin-top: 15px;
-	padding: 13px 37px 11px 20px;
+	margin-top: 13px;
+	padding: 13px 9px 11px 20px;
 	font-size: 14px;
 	box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+	line-height: 18px;
 }
 .comment-item:after, .comment-item:before {
 	bottom: 100%;
-	left: 25px;
+	left: 22px;
 	border: solid transparent;
 	content: "";
 	height: 0;
@@ -353,7 +353,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .comment-list{
-	margin-top: 10px;
+	margin-top: 17px;
 }
 .name-comm{
 	font-size: 14px;
@@ -364,7 +364,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 11px;
 	color: #808080;
 	font-weight: normal;
-	padding-left: 7px;
+	padding-left: 5px;
 }
 
 
@@ -375,8 +375,8 @@ h1,h2,h3,h4,h5,h6{
 .comment-form .container{
 	display: flex;
 	flex-direction: column;
-	max-width: 447px;
-
+	max-width: 488px;
+	max-height: 167px;
 }
 
 .inp-text{
@@ -390,8 +390,8 @@ h1,h2,h3,h4,h5,h6{
 	max-width: 281px;
 	background-color: #FDD639;
 	border-radius: 23px;
-	padding: 13px 48px 11px 43px;
-	margin: 23px auto 0;
+	padding: 12px 62px 13px 58px;
+    margin: 23px auto 6px;
 	font-family: 'PT Sans';
     font-weight: bold;
     font-style: normal;
